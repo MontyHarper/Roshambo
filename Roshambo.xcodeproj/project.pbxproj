@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		F12BCD212A268A4400E353D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BCD202A268A4400E353D9 /* AppDelegate.swift */; };
 		F12BCD232A268A4400E353D9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BCD222A268A4400E353D9 /* SceneDelegate.swift */; };
-		F12BCD252A268A4400E353D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BCD242A268A4400E353D9 /* ViewController.swift */; };
+		F12BCD252A268A4400E353D9 /* ThrowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BCD242A268A4400E353D9 /* ThrowViewController.swift */; };
 		F12BCD282A268A4400E353D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12BCD262A268A4400E353D9 /* Main.storyboard */; };
 		F12BCD2A2A268A4600E353D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F12BCD292A268A4600E353D9 /* Assets.xcassets */; };
 		F12BCD2D2A268A4600E353D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F12BCD2B2A268A4600E353D9 /* LaunchScreen.storyboard */; };
+		F12BCD352A268AA500E353D9 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12BCD342A268AA500E353D9 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F12BCD1D2A268A4400E353D9 /* Roshambo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F12BCD202A268A4400E353D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F12BCD222A268A4400E353D9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F12BCD242A268A4400E353D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F12BCD242A268A4400E353D9 /* ThrowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThrowViewController.swift; sourceTree = "<group>"; };
 		F12BCD272A268A4400E353D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F12BCD292A268A4600E353D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F12BCD2C2A268A4600E353D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F12BCD2E2A268A4600E353D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F12BCD342A268AA500E353D9 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				F12BCD202A268A4400E353D9 /* AppDelegate.swift */,
 				F12BCD222A268A4400E353D9 /* SceneDelegate.swift */,
-				F12BCD242A268A4400E353D9 /* ViewController.swift */,
+				F12BCD242A268A4400E353D9 /* ThrowViewController.swift */,
+				F12BCD342A268AA500E353D9 /* ResultViewController.swift */,
 				F12BCD262A268A4400E353D9 /* Main.storyboard */,
 				F12BCD292A268A4600E353D9 /* Assets.xcassets */,
 				F12BCD2B2A268A4600E353D9 /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F12BCD252A268A4400E353D9 /* ViewController.swift in Sources */,
+				F12BCD252A268A4400E353D9 /* ThrowViewController.swift in Sources */,
 				F12BCD212A268A4400E353D9 /* AppDelegate.swift in Sources */,
 				F12BCD232A268A4400E353D9 /* SceneDelegate.swift in Sources */,
+				F12BCD352A268AA500E353D9 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
